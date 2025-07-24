@@ -3,7 +3,23 @@
   padding: 0;
 }
 
-body {
+.box {
+  margin: 0 10px;
+  width: 25%;
+  height: 200px;
   background-color: tomato;
-  color: white;
+  display: inline-block;
+  text-align: right;
+}
+
+.box:first-child {
+  float: left;
+}
+
+.box:last-child {
+  float: right;
+}
+
+.box:nth-child(2) {
+  margin: 0 25%;
 }
