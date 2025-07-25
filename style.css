@@ -3,13 +3,37 @@
   padding: 0;
 }
 
-body {
+.center {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.between {
   justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.father {
+  display: flex;
+  gap: 10px;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
 }
 
 .box {
   width: 200px;
   height: 200px;
   background-color: tomato;
+  font-size: 25px;
+  color: white;
 }
