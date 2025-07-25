@@ -9,25 +9,13 @@
   align-items: center;
 }
 
-.between {
-  justify-content: space-between;
-}
-
-.around {
-  justify-content: space-around;
-}
-
-.evenly {
-  justify-content: space-evenly;
-}
-
 .father {
+  height: 100vh;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   gap: 10px;
-}
-
-.column-reverse {
-  flex-direction: column-reverse;
 }
 
 .box {
