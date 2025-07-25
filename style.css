@@ -13,9 +13,9 @@
   height: 100vh;
   display: flex;
   gap: 10px;
-  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .box {
@@ -24,4 +24,12 @@
   background-color: tomato;
   font-size: 25px;
   color: white;
+}
+
+.box:first-child {
+  align-self: flex-start;
+}
+
+.box:last-child {
+  align-self: flex-end;
 }
