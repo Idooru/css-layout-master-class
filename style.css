@@ -12,9 +12,9 @@
 .father {
   height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
   gap: 10px;
 }
 
