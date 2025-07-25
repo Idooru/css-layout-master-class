@@ -10,11 +10,10 @@
 }
 
 .father {
-  height: 100vh;
+  height: 50vh;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: end;
-  /* align-items: c; */
+  flex-flow: row wrap;
+  justify-content: center;
   gap: 10px;
 }
 
