@@ -6,12 +6,8 @@ body {
 .father {
   display: grid;
   gap: 10px;
-  min-height: 100vh;
-  background-color: lightblue;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(4, 100px);
-  justify-content: space-between;
-  align-content: space-between;
+  height: 100vh;
+  grid-template-columns: repeat(3, minmax(300px, 500px));
 }
 
 .child {
